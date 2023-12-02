@@ -1,0 +1,25 @@
+/*sticky header position*/
+.sticky.is-sticky {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+}
+
+body {
+  min-height: 1200px;
+}
+nav {
+  /* background: #eaebec; */
+  min-height: 85px;
+}
+.btncss12{
+    background: linear-gradient(98.24deg, #FC4A1A 0%, #F7B733 100%);
+    color:white;
+}
+.baneer{
+  background: linear-gradient(98.24deg, #FC4A1A 0%, #F7B733 100%);
+
+}
