@@ -1,0 +1,19 @@
+import React from 'react'
+import Adminnavbar from './Adminnavbar'
+
+const Photogenerator = () => {
+  return (
+    <>
+    {/* <Adminnavbar /> */}
+    <div id="content" class="row p-1 p-md-4 " style={{width:'81%'}}>
+          <div className='col-md-2'>
+            <p style={{fontSize:'11px'}}>Home / MYPHOTOS</p>
+          </div>
+          <div className='col-md-8'></div>
+          <div className='col-md-2'></div>
+        </div>
+    </>
+  )
+}
+
+export default Photogenerator
